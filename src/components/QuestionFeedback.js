@@ -5,6 +5,7 @@ export default function QuestionFeedback({
   nextQuestionOrEnd,
   restart,
   retry,
+  isLastQuestion,
 }) {
   return (
     <>
@@ -30,7 +31,7 @@ export default function QuestionFeedback({
           className="shadow-md shadow-slate-700 bg-slate-300 ring-2 ring-slate-500 rounded m-4 pl-2 pr-2 pt-1 pb-1 hover:bg-slate-500"
           onClick={nextQuestionOrEnd}
         >
-          Weiter
+          {isLastQuestion ? "Weiter" : "Nächste Frage"}
         </button>
       </div>
     </>

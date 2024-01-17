@@ -51,6 +51,7 @@ function App() {
           nextQuestionOrEnd={nextQuestionOrEnd}
           restart={restart}
           retry={() => setShowFeedbackPage(false)}
+          isLastQuestion={currentQuestion === questions.length - 1}
         />
       ) : (
         <>
