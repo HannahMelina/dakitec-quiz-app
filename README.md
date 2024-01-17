@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,11 +9,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +30,47 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Projekt Anforderungen
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Aufgabe: Quiz-App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Beschreibung der Aufgabe
+Unser Kunde hat den Wunsch geäußert, eine interaktive Quiz-App zu entwickeln. Die App soll
+dem Benutzer nacheinander 5 Fragen präsentieren, wobei für jede Frage drei
+Antwortmöglichkeiten zur Verfügung stehen. Der Benutzer wird aufgefordert, eine Antwort
+auszuwählen und erhält anschließend unmittelbares Feedback, ob die Antwort korrekt ist. Nach
+der Beantwortung einer Frage hat der Benutzer die Möglichkeit, die nächste Frage anzuzeigen,
+sofern nicht alle 5 Fragen bereits beantwortet wurden.
+Folgende Fragen sollen gestellt werden:
 
-### Code Splitting
+1. Welches Element hat die chemische Bezeichnung "O"?\
+   a. Sauerstoff (richtige Antwort)\
+   b. Stickstoff\
+   c. Kohlenstoff
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Welche Hauptstadt gehört zu dem Land Australien?\
+   a. Sydney\
+   b. Canberra (richtige Antwort)\
+   c. Melbourne
 
-### Analyzing the Bundle Size
+3. Wer spielt die Hauptrolle in der "Der Pate"-Trilogie?\
+   a. Robert De Niro\
+   b. Marlon Brando\
+   c. Al Pacino (richtige Antwort)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. In welchem Jahr endete der Zweite Weltkrieg?\
+   a. 1943\
+   b. 1945 (richtige Antwort)\
+   c. 1950
 
-### Making a Progressive Web App
+5. Welches Unternehmen entwickelte das erste iPhone?\
+   a. Apple (richtige Antwort)\
+   b. Samsung\
+   c. Google
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Hinweise
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Das Aussehen der App ist nicht relevant für diese Aufgabe. Es ist nur relevant, dass der
+Prozess richtig abgebildet wird. Die Formulierung der Aufgabe ist bewusst etwas offen gehalten,
+damit du mehr Freiheiten bei der Implementierung der Lösung hast. Falls du Fragen hast,
+kannst du dich gerne bei uns melden.
